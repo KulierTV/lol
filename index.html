@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splashing on Iku</title>
     <style>
-        body {
-            align-items: center;
-            justify-content: center;
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
             background-color: #3b3b3b; 
         }
 
-
-        .picture-one {
-            height: 1000px;
-            width: 1000px;
+        .background-image {
+            background-image: url('img/pleading_cum.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
         }
-
+        
     </style>
 </head>
 <body>
-
-        <picture-one class="picture-one" target="jo"></picture-one>
-        <img src="img/pleading_cum.png" alt="Cumming on Iku"/>
-
+    <div class="background-image"></div>
 </body>
 </html>
